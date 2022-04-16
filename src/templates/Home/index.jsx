@@ -66,6 +66,7 @@ export class Home extends React.Component {
             <h1>Search Value: {searchValue}</h1>
           )}
 
+
           <TextInput searchValue={searchValue} handleChange={this.handleChange} />
         </div>
         {filteredPosts.length > 0 && (
